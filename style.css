@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  background-color: rgba(171, 166, 237, 0.8);
+}
+
+.div-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.title {
+  font-size: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 60vw;
+  height: 15vh;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+  margin: 3vh 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.div-main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: wrap column;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 60vw;
+  height: 76vh;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.div-Write-Letter {
+  margin-top: 5vh;
+  width: 50vw;
+}
+
+.div-pLetter {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.newspaper {
+  background-color: rgb(250, 235, 215);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+
+.magazine1 {
+  background-color: rgb(0, 128, 128);
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.magazine2 {
+  background-image: url(images/pink-pattern.png);
+  color: rgb(255, 0, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.rotateleft {
+  transform: matrix(0.996195, -0.0871557, 0.0871557, 0.996195, 0, 0);
+}
+
+.rotateright {
+  transform: matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0);
+}
+
+.skewleft {
+  transform: matrix(1, 0, 0.176327, 1, 0, 0);
+}
+
+.skewright {
+  transform: matrix(1, 0, -0.176327, 1, 0, 0);
+}
+
